@@ -1,0 +1,27 @@
+header {
+    position: absolute;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(167, 231, 250);
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+h1.logo{
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+.logo{
+    position: inherit;
+    height: 90%;
+    width: 20%;
+    margin-top: 3px;
+    text-align: center;
+    
+
+
+}
