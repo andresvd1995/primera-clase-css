@@ -64,6 +64,7 @@ li a:active {
     background-color: rgb(18, 18, 68);
     color: cornsilk;
 }
+
 .menu {
     width: 75%;
     text-align: center;
@@ -71,5 +72,67 @@ li a:active {
 }
 
 .slideshow-container {
-    margin-top: 25%;
-  }
+    margin-top: 50%;
+    max-width: 1000px;
+    position: relative;
+}
+
+.myslides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 4px 0 4px;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .netx:hover{
+    background-color: rgba (0, 0, 0, 0.5);
+}
+
+.text{
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext{
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgba(0, 102, 255, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 8s ease;
+}
+
+.active, .dot:hover {
+    background-color: rgba(0, 102, 255, 1);
+}
