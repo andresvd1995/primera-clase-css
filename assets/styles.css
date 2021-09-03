@@ -1,10 +1,30 @@
+:root {
+    --backgroundColor: #fff;
+}
+
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: var(--backgroundColor);
+}
+body{
+    background-image: url("images/fondo-adidas.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position-x: center;
+    height: 100vh;
+    margin: auto;
+    overflow: auto;  
 }
 
 .container{
     width: 100%;
-    height: 100%;
+    height: 500px;
     display: flex;
     border: 10px solid rebeccapurple;
 }
@@ -27,14 +47,10 @@ header {
     position: absolute;
     display: flex;
     height: 50%;
-    width: 100%;
+    width: 99%;
     margin-left: -8px;
     margin-top: -8px;
     margin-right: -8px;
-    background-image: url(images/fondo-adidas.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-position: center;
 }
 
 ul {
@@ -75,7 +91,9 @@ li a:active {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 50%;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+    width: 35%;
 }
 
 .myslides{
@@ -153,4 +171,25 @@ li a:active {
 @keyframes fade {
     from {opacity: .4;}
     to {opacity: 1;}
+}
+
+.grid-container {
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: var(--backgroundColor);
+}
+
+.grid-item {
+    padding: 20%;
+    font-size: 30px;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+}
+
+.grid-item img {
+    height: inherit;
+    width: inherit;
 }
