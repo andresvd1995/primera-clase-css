@@ -92,8 +92,7 @@ header {
     position: relative;
     margin: auto;
     margin-top: 2%;
-    background-color: rgb(255, 255, 255);
-    width: 35%;
+    background-color: var(--backgroundColor);
 }
 
 .myslides{
@@ -246,4 +245,76 @@ header {
 .footer{
     width: 100%;
     text-align: center;
+}
+
+.general-content {
+    width: 100%;
+    margin: 20px;
+    margin-top: 2%;
+    background-color: var(--backgroundColor);
+
+}
+
+.title-1{
+    height: 100%;
+    width: 100%;
+    color: rgb(56, 56, 56);
+    text-align: left;
+    border: chartreuse;
+    background-color: var(--backgroundColor);
+
+
+}
+
+.title-pag{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    border: chocolate;
+    background-color: var(--backgroundColor);
+
+}
+.women-open-box{
+    height: 500px;
+    width: 700px;
+    text-align: right;
+    border: darkblue;
+    background-color: var(--backgroundColor);
+}
+
+.text-2{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border: rgb(16, 139, 0);
+    background-color: rgb(233, 233, 233)
+}
+
+.garantia{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border: rgb(16, 139, 0);
+    background-color: var(--backgroundColor);
+}
+
+.whatsapp-1{
+    color: #025373;
+}
+
+.facebook-1{
+    color: #025373;
+}
+
+.instagram-1{
+    color: #025373;
+}
+
+.siguenos {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    border: rgb(16, 139, 0);
+    background-color: rgb(185, 185, 185)
 }
