@@ -48,15 +48,25 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <button type="button" class="btn btn-primary"> Valid</button>
+                    <button type="button" class="btn btn-primary" onclick="validfields2"> Valid </button>
                 </div>
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4"></div>
             </div>
-
-
         </form>
-
+    </div>
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col"> Salary</th>
+                    <th scope="col">Active</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
     </div>
     <div class="container-footer">
         <div class="grid-footer">
@@ -87,6 +97,7 @@
 
     <script src="assets/jquery.min.js"></script>
     <script src="assets/plugins/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="assets/javascriptContact.js"></script>
 </body>
 
 </html>
